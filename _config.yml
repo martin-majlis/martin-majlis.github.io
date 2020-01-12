@@ -36,6 +36,8 @@ plugins:
   - jekyll-feed
   - jekyll-default-layout
 
+google_analytics: UA-322031-27
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
