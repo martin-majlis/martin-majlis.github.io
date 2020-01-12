@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Integrating GitHub with PyPi, Travis-CI, ReadTheDocs, and Code Climate"
-date:   2017-07-23 11:38:57 +0100
+date:   2017-07-03 11:38:57 +0100
 categories: code climate github howto integration open source pypi python readthedocs rtfd travis-cl
 ---
 
