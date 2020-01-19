@@ -15,25 +15,25 @@ I have submitted it to [hacker news](https://news.ycombinator.com/item?id=147651
 These are random snapshots when I have checked what is going on hacker news and on my website.
 
 * 2017-07-13 23:11:39 – 49 users – big surprise:
-Screenshot 2017-07-13 23:11:39 - 49 users
+![Screenshot 2017-07-13 23:11:39 - 49 users](/assets/2017-07-18-Screenshot_20170713-231139-1.png)
 * 2017-07-13 23:14:36 – 5th position and I was surprised by their ranking algorithm:
-Screenshot 2017-07-13 23:14:36 - Position 5
+![Screenshot 2017-07-13 23:14:36 - Position 5](/assets/2017-07-18-Screenshot_20170713-231436.png)
 * 2017-07-13 23:51:27 – 345 users is maximum that I have seen:
-Screenshot 2017-07-13 23:51:27 - Realtime users
+![Screenshot 2017-07-13 23:51:27 - Realtime users](/assets/2017-07-18-Screenshot_20170713-235127.png)
 * 2017-07-13 23:53:35 – 2nd position, this was the best that I have seen:
-Screenshot 2017-07-13 23:53:35 - Position 2
+![Screenshot 2017-07-13 23:53:35 - Position 2](/assets/2017-07-18-Screenshot_20170713-235335.png)
 * 2017-07-14 00:08:13 – Number of current users was slowly decreasing:
-Screenshot 2017-07-14 00:08:13 - Realtime Users
+![Screenshot 2017-07-14 00:08:13 - Realtime Users](/assets/2017-07-18-Screenshot_20170714-000813.png)
 * 2017-07-14 00:08:39 – And source of traffic moved to other social networks:
-Screenshot 2017-07-14 00:08:39 - Sources
+![Screenshot 2017-07-14 00:08:39 - Sources](/assets/2017-07-18-Screenshot_20170714-000839.png)
 * Screenshot 2017-07-14 00:09:06 – Since it was midnight in Europe, it was kind of expected, that US will dominate active users:
-Screenshot 2017-07-14 00:09:06 - Countries
+![Screenshot 2017-07-14 00:09:06 - Countries](/assets/2017-07-18-Screenshot_20170714-000906.png)
 * 2017-07-14 00:17:48 – Link is gone from HP. Based on discussion in following [thread](https://news.ycombinator.com/item?id=13857086) it made sense that this link is not as valuable as announcement of Go 2 or research from Google about deep learning and therefore mods took it down.:
-Screenshot 2017-07-14 00:17:48 - Link is gone from HP of hacker news
+![Screenshot 2017-07-14 00:17:48 - Link is gone from HP of hacker news](/assets/2017-07-18-Screenshot_20170714-001748.png)
 
-It never occured to me, that I should scroll down to check if it’s somewhere lower. So I fall asleep. When I woke up, I have checked stats. There was still around 40 people there!!! It didn’t make any sense to me, how it’s possible that there are still people from hacker news, when I was taken down. I have checked [Twitter Search](https://twitter.com/search?f=tweets&vertical=default&q=timestamp.online&src=typd) and I have discovered, that there are many bots that will tweet the post when it reaches cerating rank or number of points. This is where I have discovered, that there is [@hn_bot_top1](https://twitter.com/hn_bot_top1) which tweets all stories, that reach [first position](https://twitter.com/hn_bot_top1/status/885622123921854468). When I was looking for some other evidence, that the post was indeed first I have discovered [HN Rankinings](http://hnrankings.info/14765198/). This is where I have found out that I am still on first page.
+It never occurred to me, that I should scroll down to check if it’s somewhere lower. So I fall asleep. When I woke up, I have checked stats. There was still around 40 people there!!! It didn’t make any sense to me, how it’s possible that there are still people from hacker news, when I was taken down. I have checked [Twitter Search](https://twitter.com/search?f=tweets&vertical=default&q=timestamp.online&src=typd) and I have discovered, that there are many bots that will tweet the post when it reaches cerating rank or number of points. This is where I have discovered, that there is [@hn_bot_top1](https://twitter.com/hn_bot_top1) which tweets all stories, that reach [first position](https://twitter.com/hn_bot_top1/status/885622123921854468). When I was looking for some other evidence, that the post was indeed first I have discovered [HN Rankinings](http://hnrankings.info/14765198/). This is where I have found out that I am still on first page.
 
-Rank for timestamp.online on hacker news.
+![Rank for timestamp.online on hacker news.](/assets/2017-07-18-hacker-news-rank-number-1.png)
 
 # Analysis #
 
@@ -41,7 +41,7 @@ And now some analysis how many people visited timestamp.online, from where, and 
 
 In it’s peak there was 2,276 people during one hour and then it was slowly decreasing. Second spike happened, when it got shared on [wykop.pl](https://www.wykop.pl/link/3827993/zostaly-4-godziny-do-unix-timestamp-1500000000/) and after that 3k people from Poland visited it.
 
-Google Analytics - timestamp.online Main Dashboard
+![Google Analytics - timestamp.online Main Dashboard](/assets/2017-07-18-timestamp.online-main-dashboard.png)
 
 ## Location: 18,436 ##
 1. USA: 38.69%
@@ -72,10 +72,10 @@ Google Analytics - timestamp.online Main Dashboard
 5. Linux: 8.31%
 6. Windows Phone: 0.20%
 
-When I compare [browser](http://gs.statcounter.com/os-market-share) or [OS with general population, I can see big differences. Even when compared](http://gs.statcounter.com/browser-market-share) with more developer focused websites, statistics for [browser](https://www.w3schools.com/browsers/default.asp) and [OS](https://www.w3schools.com/browsers/browsers_os.asp) looks differently. There is way more Macintosh users than there should be.
+When I compare [browser](http://gs.statcounter.com/browser-market-share) or [OS](http://gs.statcounter.com/os-market-share) with general population, I can see big differences. Even when compared with more developer focused websites, statistics for [browser](https://www.w3schools.com/browsers/default.asp) and [OS](https://www.w3schools.com/browsers/browsers_os.asp) looks differently. There is way more Macintosh users than there should be.
 
 ## Referrers ##
-GA - Referrers - timestamp.online
+![GA - Referrers - timestamp.online](/assets/2017-07-18-timestamp.online-referrers-all.png)
 
 ### By Date ###
 * 2017-07-12: 7
@@ -142,15 +142,15 @@ How it was shared [there](https://www.reddit.com/domain/timestamp.online/). It w
 
 From 18k people at least 2k people clicked on something. I would expect this number to be lower.
 
-timestamp.online - Flow
+![timestamp.online - Flow](/assets/2017-07-18-timestamp.online-flow.png)
 
 There are also links to my other sites where each of them got around 200 visits.
 
 # Hosting #
 I have my websites on [Savana](http://www.savana.cz/?aid=1905c689) with the cheapest plan [Savana 500](https://www.savana.cz/multihosting/). Load on my VM increased from 0.4 to 20 in that moment. In GA I can see, that average page load time was increased to 18s. However, when I check different sections I can see only 4s as average time. It would be better to know p95 than average.
 
-timestamp.online - Average Page Load Time
+![timestamp.online - Average Page Load Time](/assets/2017-07-18-timestamp.online-page-load-time.png)
 
-Further Analysis
+# Further Analysis #
 If you want to check raw data you can check either [raw logs](https://goo.gl/2YYmGF) or [awstats](http://stats.martinmajlis.savana-hosting.cz/timestamp.online/2017-07/cz/) with user public and password public. It may be interesting to look more closely how was the number of icomming people correlated with rank on hacker news or number of tweets. It’s also interesting, that awstats are showing completely different numbers than Google Analytics.
 

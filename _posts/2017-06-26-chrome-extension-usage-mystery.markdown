@@ -10,7 +10,7 @@ Last month I have published my extension [Facebook Backup][facebook-backup] for 
 # Developer Dashboard #
 
 These statistics are for free since they are available directly in Developer Dashboards. They are showing number in impressions, installation, total users, and uninstalls.
-AA
+
 ![Developers Dashboard - Usage](/assets/2017-06-26-chrome-extension-dd-usage.png)
 
 # Google Analytics in Developer Dashboard #

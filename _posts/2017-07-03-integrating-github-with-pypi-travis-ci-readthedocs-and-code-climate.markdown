@@ -204,3 +204,4 @@ make: *** [html] Error 1
 ## Travis Permissions  ##
 If you are receiving error message `user-name has not granted Travis CI the required permissions, please log in via travis-ci.com`, it’s caused by using `travis login --pro` instead of `travis login`. You should modify all commands to not to use `--pro` flag.
 
+![featured-image](/assets/2017-07-03-integrating-github-pypi.png)
