@@ -59,7 +59,8 @@ Pokud vyrábíte IT systém, tak je důležité, aby alespoň vypadal profesion�
 ## Osobní poznámky
 
 
-
+https://twitter.com/ChytraKarantena/status/1367121599887990785
+https://www.facebook.com/martin.majlis/posts/10221645740467196
 
 [1]
 
