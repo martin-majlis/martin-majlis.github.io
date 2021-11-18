@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nesrovnalosti v datových sadách"
-date:   2021-03-05 08:00:00 +0100
+date:   2021-11-18 10:35:00 +0100
 categories: covid
 ---
 
