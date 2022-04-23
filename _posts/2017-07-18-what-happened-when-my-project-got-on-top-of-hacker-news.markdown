@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "What happened when my project got on top of Hacker News"
 date:   2017-07-18 11:38:57 +0100
-categories: Google Analytics hacker news
+tags: google-analytics hacker-news
 ---
 
 This is analysis how much traffic I got from being on front page of hacker news, how it spreaded accross other social media. From which countries people came and what operating system and browser they use.

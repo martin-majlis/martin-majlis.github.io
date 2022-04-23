@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Integrating GitHub with PyPi, Travis-CI, ReadTheDocs, and Code Climate"
 date:   2017-07-03 11:38:57 +0100
-categories: code climate github howto integration open source pypi python readthedocs rtfd travis-cl
+tags: codeclimate github howto integration open-source pypi python readthedocs rtfd travis-cl
 ---
 
 After change is pushed into GitHub, Travis is used to build and deploy PyPi package. Generated documentation is readable in PyPi, GitHub, and Read The Docs.
@@ -133,15 +133,15 @@ I have received this error, when I have on my Ubuntu package `python-sphinx` whi
 
 ```
 Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/sphinx/__main__.py", line 14, in 
+  File "/usr/lib/python2.7/dist-packages/sphinx/__main__.py", line 14, in
     sys.exit(main(sys.argv))
   File "/usr/lib/python2.7/dist-packages/sphinx/__init__.py", line 51, in main
     sys.exit(build_main(argv))
   File "/usr/lib/python2.7/dist-packages/sphinx/__init__.py", line 61, in build_main
     from sphinx import cmdline
-  File "/usr/lib/python2.7/dist-packages/sphinx/cmdline.py", line 14, in 
+  File "/usr/lib/python2.7/dist-packages/sphinx/cmdline.py", line 14, in
     import optparse
-  File "/usr/lib/python2.7/optparse.py", line 419, in 
+  File "/usr/lib/python2.7/optparse.py", line 419, in
     _builtin_cvt = { "int" : (_parse_int, _("integer")),
   File "/usr/lib/python2.7/gettext.py", line 584, in gettext
     return dgettext(_current_domain, message)
@@ -158,33 +158,33 @@ Error in sys.excepthook:
 Traceback (most recent call last):
   File "/usr/lib/python2.7/dist-packages/apport_python_hook.py", line 63, in apport_excepthook
     from apport.fileutils import likely_packaged, get_recent_crashes
-  File "/usr/lib/python2.7/dist-packages/apport/__init__.py", line 5, in 
+  File "/usr/lib/python2.7/dist-packages/apport/__init__.py", line 5, in
     from apport.report import Report
-  File "/usr/lib/python2.7/dist-packages/apport/report.py", line 12, in 
+  File "/usr/lib/python2.7/dist-packages/apport/report.py", line 12, in
     import subprocess, tempfile, os.path, re, pwd, grp, os, time
-  File "/usr/lib/python2.7/tempfile.py", line 32, in 
+  File "/usr/lib/python2.7/tempfile.py", line 32, in
     import io as _io
-  File "/usr/lib/python2.7/dist-packages/sphinx/io.py", line 11, in 
+  File "/usr/lib/python2.7/dist-packages/sphinx/io.py", line 11, in
     from docutils.io import FileInput
-  File "/usr/lib/python2.7/dist-packages/docutils/io.py", line 18, in 
+  File "/usr/lib/python2.7/dist-packages/docutils/io.py", line 18, in
     from docutils.utils.error_reporting import locale_encoding, ErrorString, ErrorOutput
-  File "/usr/lib/python2.7/dist-packages/docutils/utils/__init__.py", line 21, in 
+  File "/usr/lib/python2.7/dist-packages/docutils/utils/__init__.py", line 21, in
     from docutils.utils.error_reporting import ErrorOutput, SafeString
-  File "/usr/lib/python2.7/dist-packages/docutils/utils/error_reporting.py", line 47, in 
+  File "/usr/lib/python2.7/dist-packages/docutils/utils/error_reporting.py", line 47, in
     locale_encoding = locale.getlocale()[1] or locale.getdefaultlocale()[1]
 AttributeError: 'module' object has no attribute 'getlocale'
 
 Original exception was:
 Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/sphinx/__main__.py", line 14, in 
+  File "/usr/lib/python2.7/dist-packages/sphinx/__main__.py", line 14, in
     sys.exit(main(sys.argv))
   File "/usr/lib/python2.7/dist-packages/sphinx/__init__.py", line 51, in main
     sys.exit(build_main(argv))
   File "/usr/lib/python2.7/dist-packages/sphinx/__init__.py", line 61, in build_main
     from sphinx import cmdline
-  File "/usr/lib/python2.7/dist-packages/sphinx/cmdline.py", line 14, in 
+  File "/usr/lib/python2.7/dist-packages/sphinx/cmdline.py", line 14, in
     import optparse
-  File "/usr/lib/python2.7/optparse.py", line 419, in 
+  File "/usr/lib/python2.7/optparse.py", line 419, in
     _builtin_cvt = { "int" : (_parse_int, _("integer")),
   File "/usr/lib/python2.7/gettext.py", line 584, in gettext
     return dgettext(_current_domain, message)

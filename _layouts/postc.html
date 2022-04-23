@@ -1,0 +1,19 @@
+---
+layout: post
+---
+
+{{ content }}
+
+<hr />
+<dl>
+    <dt>Tags:</dt>
+    <dd>
+{% for tag in page.tags %}
+    <a href="/tag/{{tag}}">{{tag}}</a>,
+{% endfor %}
+    </dd>
+    <dt>Archive</dt>
+    <dd>
+        <a href="/{{ page.date | date: "%Y" }}/">{{ page.date | date: "%Y" }}</a>-<a href="/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/">{{ page.date | date: "%m" }}</a>-<a href="/{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}/">{{ page.date | date: "%d" }}</a>
+    </dd>
+</dl>

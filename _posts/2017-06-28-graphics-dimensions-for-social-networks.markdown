@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Graphics Dimensions For Social Networks"
 date:   2017-06-28 09:58:57 +0100
-categories: facebook twitter "product hunt"
+tags: facebook twitter product-hunt
 ---
 Every social platform has their own requirements for used graphics. In this post I am summarizing their dimensions.
 

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Monitorivání očkování"
 date:   2021-03-05 08:00:00 +0100
-categories: očkování covid
+tags: očkování covid cs
 ---
 
 Domluvil jsem se s babičkou, že ji zaregistruji na očkování. Takže jsem si 15. ledna nastavil budík na 8:00, abych ji zaregistroval.

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "NSCAI Final Report - Summary of Summary"
 date:   2021-03-02 08:00:00 +0100
-categories: AI artificial inteligence
+tags: AI artificial-inteligence
 ---
 
 Final Report presents the NSCAI’s strategy for winning the artificial intelligence era - [https://www.nscai.gov/2021-final-report/](https://www.nscai.gov/2021-final-report/)
@@ -17,7 +17,7 @@ State adversaries are already using AI-enabled disinformation attacks to sow div
 * The $40 billion we recommend to expand and democratize federal AI research and development (R&D) is a modest down payment on future breakthroughs.
 * AI technologies are the most powerful tools in generations for expanding knowledge, increasing prosperity, and enriching the human experience.
 * China possesses the might, talent, and ambition to surpass the United States as the world’s leader in AI in the next decade if current trends do not change. Simultaneously, AI is deepening the threat posed by cyber attacks and disinformation campaigns that Russia, China, and others are using to infiltrate our society, steal our data, and interfere in our democracy.
-* They are harvesting data on Americans to build profiles of their beliefs, behavior, and biological makeup for tailored attempts to manipulate or coerce individuals. 
+* They are harvesting data on Americans to build profiles of their beliefs, behavior, and biological makeup for tailored attempts to manipulate or coerce individuals.
 * Human operators will not be able to keep up with or defend against AI-enabled cyber or disinformation attacks, drone swarms, or missile attacks without the assistance of AI-enabled machines.
 * While it is neither feasible nor currently in the interests of the United States to pursue a global prohibition of AI-enabled and autonomous weapon systems, the global, unchecked use of such systems could increase risks of unintended conflict escalation and crisis instability.
 * To establish justified confidence, the government should focus on ensuring that its AI systems are robust and reliable, including through research and development (R&D) investments in AI security and advancing human-AI teaming through a sustained initiative led by the national research labs.

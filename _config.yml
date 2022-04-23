@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -32,11 +32,32 @@ github_username:  martin-majlis
 
 # Build settings
 theme: minima
+# remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-default-layout
+  - jekyll-sitemap
 
 google_analytics: UA-322031-27
+
+# Custom developed features
+show_tags:            true
+
+jekyll-archives:
+  enabled: 'all'
+  layouts:
+    year: archive-year
+    month: archive-month
+    day: archive-day
+    category: archive-tag
+    tag: archive-tag
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

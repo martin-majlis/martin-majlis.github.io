@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Docker image with PHP, Apache, and mod_rewrite"
 date:   2022-04-23 19:35:00 +0100
-categories: docker php apache mod_rewrite github
+tags: docker php apache mod_rewrite github en
 ---
 
 TLDR: `docker run -it -p 8080:80 -v "$PWD":/var/www/html/ martinmajlis/apache-php-rewrite:latest` to run Apache with PHP and mod_rewrite from your current folder.

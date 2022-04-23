@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Chrome Extension Usage Mystery"
 date:   2017-06-26 11:38:57 +0100
-categories: facebook "Google Analytics" "Chrome extensions"
+tags: facebook google-analytics chrome-extension
 ---
 
 Last month I have published my extension [Facebook Backup][facebook-backup] for downloading photos and videos from Facebook groups and pages. When I wanted to check it's usage, I have found out, that there three different ways, how it can be measured.

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: postc
 title:  "Nesrovnalosti v datových sadách"
 date:   2021-11-18 10:35:00 +0100
-categories: covid
+tags: covid cs
 ---
 
 Ministerstvo každý den publikuje [datové sady](https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19) týkající se covidu a já je každou hodinu [zazálohuju](https://gitlab.com/martin.majlis/covid-19-data), protože příliš nevěřím tomu, že je ČR schopna s daty nějak pracovat.
@@ -85,16 +85,16 @@ sort data/backup/onemocneni-aktualne.mzcr.cz_covid-19-v2/ockovani-distribuce-sor
   * Stěhování: `-2020-04-30,24,M,CZ031,CZ0316,,,` - `+2020-04-30,24,M,CZ032,CZ0323,,,`
   * Změna pohlaví: `-2020-07-07,46,Z,CZ080,CZ0801,,,` - `+2020-07-07,46,M,CZ080,CZ0801,,,`
   * Stárnutí: `-2021-03-31,26,Z,CZ032,CZ0323,,,` - `+2021-03-31,27,M,CZ032,CZ0323,,,1`
-  
+
 ### umrti.csv ###
 
 * [umrti.csv](https://gitlab.com/martin.majlis/covid-19-data/-/commit/bfe7f962f7391c9b7b1baf99c635d33c0bf4814c) - dnešní data vypadají dobře
-* data z minulého týdne: 
-  * Příkazy: 
+* data z minulého týdne:
+  * Příkazy:
 
-``` 
+```
 git log .//data/backup//onemocneni-aktualne.mzcr.cz_covid-19-v2/umrti.csv
-git show 1778f773860b7f5320ddac0685c0251eda0f3481:.//data/backup//onemocneni-aktualne.mzcr.cz_covid-19-v2/umrti.csv | sort > /tmp/umrti-1778f773860b7f5320ddac0685c0251eda0f3481.csv  
+git show 1778f773860b7f5320ddac0685c0251eda0f3481:.//data/backup//onemocneni-aktualne.mzcr.cz_covid-19-v2/umrti.csv | sort > /tmp/umrti-1778f773860b7f5320ddac0685c0251eda0f3481.csv
 git show 963a3ce82bb19118a39d5345102be09dc6c89308:.//data/backup//onemocneni-aktualne.mzcr.cz_covid-19-v2/umrti.csv | cut -f 2-99 -d, | sort > /tmp/umrti-963a3ce82bb19118a39d5345102be09dc6c89308.csv
 
 diff --color=always /tmp/umrti-1778f773860b7f5320ddac0685c0251eda0f3481.csv /tmp/umrti-963a3ce82bb19118a39d5345102be09dc6c89308.csv
